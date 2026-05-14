@@ -1,0 +1,27 @@
+{
+    "name": "4geo35/editable-review-slider-block",
+    "description": "Add review slider block type",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir",
+            "email": "aweram-team@yandex.ru"
+        }
+    ],
+    "require": {
+        "4geo35/editable-blocks": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "GIS\\EditableReviewSliderBlock\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GIS\\EditableReviewSliderBlock\\EditableReviewSliderBlockServiceProvider"
+            ]
+        }
+    }
+}
