@@ -27,5 +27,7 @@ return [
     "customReviewsComponent" => null, // ersb-reviews
 
     // Templates
-    "templates" => [],
+    "templates" => [
+        "review-slider-image" => \GIS\EditableReviewSliderBlock\Templates\ReviewSliderImage::class,
+    ],
 ];
